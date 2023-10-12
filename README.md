@@ -2,8 +2,8 @@
 
 /src/config.py
 
-key=""
-token=""
-username=""
-userid=""
-wallet=""
+* key=""
+* token=""
+* username=""
+* userid=""
+* wallet=""
