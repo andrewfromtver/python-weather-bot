@@ -4,10 +4,14 @@ import config
 import weather
 import telebot
 import datetime
+import time
 import subprocess
+import os
 from telebot import types
 from time import sleep
 
+os.environ['TZ'] = 'Europe/Moscow'
+time.tzset()
 level = logging.INFO
 FORMAT = '%(asctime)s %(levelname)s: %(message)s'
 logfile = '/weather_bot/tmp/log/weather_bot.log'
