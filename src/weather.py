@@ -12,10 +12,10 @@ def weather(var):
     s = w.status
     stat = 'Краткая сводка - ' + str(s)
     wind = 'Скорость ветра ' + str(a.get("speed")) + ' м/с'
-    hum = 'Относительная влажность ' + str(b) + ' мм рт. ст.'
-    temp = 'Средняя темперетура ' + str(c.get("temp")) + ' °C'
-    tmax = 'Максимальная темперетура ' + str(c.get("temp_max")) + ' °C'
-    tmin = 'Минимальная темперетура ' + str(c.get("temp_min")) + ' °C'
+    hum = 'Относительная влажность ' + str(b) + ' %'
+    temp = 'Средняя температура ' + str(c.get("temp")) + ' °C'
+    tmax = 'Макс. температура ' + str(c.get("temp_max")) + ' °C'
+    tmin = 'Мин. температура ' + str(c.get("temp_min")) + ' °C'
     summary = {'stat':stat, 'wind':wind, 'hum':hum,
     'temp':temp, 'tmax':tmax, 'tmin':tmin}
     return summary
@@ -32,10 +32,10 @@ def weather_coord(lat, lon):
     s = w.status
     stat = 'Краткая сводка - ' + str(s)
     wind = 'Скорость ветра ' + str(a.get("speed")) + ' м/с'
-    hum = 'Относительная влажность ' + str(b) + ' мм рт. ст.'
-    temp = 'Средняя темперетура ' + str(c.get("temp")) + ' °C'
-    tmax = 'Максимальная темперетура ' + str(c.get("temp_max")) + ' °C'
-    tmin = 'Минимальная темперетура ' + str(c.get("temp_min")) + ' °C'
+    hum = 'Относительная влажность ' + str(b) + ' %'
+    temp = 'Средняя температура ' + str(c.get("temp")) + ' °C'
+    tmax = 'Макс. температура ' + str(c.get("temp_max")) + ' °C'
+    tmin = 'Мин. температура ' + str(c.get("temp_min")) + ' °C'
     summary = {'stat':stat, 'wind':wind, 'hum':hum,
     'temp':temp, 'tmax':tmax, 'tmin':tmin}
     return summary

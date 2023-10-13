@@ -80,6 +80,8 @@ def send_message(message):
                          str(info.get('stat')) + "\n" +
                          str(info.get('wind')) + "\n" +
                          str(info.get('hum')) + "\n" +
+                         str(info.get('tmax')) + "\n" +
+                         str(info.get('tmin')) + "\n" +
                          str(info.get('temp')) + "\n" +
                          "~~~~~~~~~~~~~~~~~~~~")
     elif message.text == 'Питер':
@@ -91,6 +93,8 @@ def send_message(message):
                          str(info.get('stat')) + "\n" +
                          str(info.get('wind')) + "\n" +
                          str(info.get('hum')) + "\n" +
+                         str(info.get('tmax')) + "\n" +
+                         str(info.get('tmin')) + "\n" +
                          str(info.get('temp')) + "\n" +
                          "~~~~~~~~~~~~~~~~~~~~")
     elif message.text == 'Тверь':
@@ -102,6 +106,8 @@ def send_message(message):
                          str(info.get('stat')) + "\n" +
                          str(info.get('wind')) + "\n" +
                          str(info.get('hum')) + "\n" +
+                         str(info.get('tmax')) + "\n" +
+                         str(info.get('tmin')) + "\n" +
                          str(info.get('temp')) + "\n" +
                          "~~~~~~~~~~~~~~~~~~~~")
     elif message.text == 'Ереван':
@@ -113,6 +119,8 @@ def send_message(message):
                          str(info.get('stat')) + "\n" +
                          str(info.get('wind')) + "\n" +
                          str(info.get('hum')) + "\n" +
+                         str(info.get('tmax')) + "\n" +
+                         str(info.get('tmin')) + "\n" +
                          str(info.get('temp')) + "\n" +
                          "~~~~~~~~~~~~~~~~~~~~")
     elif message.text == 'Метеорологическая карта 🗺':
@@ -158,6 +166,8 @@ def send_weather_by_location(message):
                          str(info.get('stat')) + "\n" +
                          str(info.get('wind')) + "\n" +
                          str(info.get('hum')) + "\n" +
+                         str(info.get('tmax')) + "\n" +
+                         str(info.get('tmin')) + "\n" +
                          str(info.get('temp')) + "\n" +
                          "~~~~~~~~~~~~~~~~~~~~")
     else:
